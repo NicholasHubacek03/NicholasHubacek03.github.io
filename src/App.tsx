@@ -29,7 +29,33 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+
+    // 
   )
 }
 
 export default App
+
+// class App extends React.Component {
+  // render() {
+//     return (
+//       <Router>
+//         <div>
+//           <Navbar />
+//           <Routes>
+//             <Route path="/" element={<Home />} />
+//             <Route path="/Homepage" element={<Home />} />
+//             <Route path="/Login" element={<Login />} />
+//             <Route path="/AboutUs" element={<AboutUs />} />
+//             <Route path="/Register" element={<Register />} />
+//             <Route path="/Dashboard" element={<Dashboard />} />
+//             <Route path='/ForgotPassword' element={<ForgotPasswordForm/>} />
+//           </Routes>
+//         </div>
+//       </Router>
+//     );
+//   }
+// }
+
+
+// export default App
