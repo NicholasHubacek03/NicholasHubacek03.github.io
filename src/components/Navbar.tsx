@@ -4,7 +4,7 @@ const Navbar: React.FC = () => {
       return (
             <nav className="navbar">
               <NavLink to="/" className="nav-link">
-                HomePage
+                Home
                 </NavLink>
               <NavLink to="/aboutme" className="nav-link">
                 About Me
