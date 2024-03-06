@@ -3,7 +3,7 @@ import "../css/Navbar.css"
 const Navbar: React.FC = () => {
       return (
             <nav className="navbar">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/Home" className="nav-link">
                 Home
                 </NavLink>
               <NavLink to="/aboutme" className="nav-link">
