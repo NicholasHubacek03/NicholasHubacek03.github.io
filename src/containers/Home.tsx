@@ -1,12 +1,21 @@
+import Tooling from "../components/Tooling";
+
 const Home: React.FC = () => {
     return (
-        <><h1>Hello!,I'm Nicholas</h1>
-        <h2>Web Developer</h2>
-        <p>small like discpriton about me</p>
+        <><h1>Hi There! I'm Nicholas</h1>
+        <h1>Web Developer</h1>
+        <p>An Full Stack Developer</p>
         {/* <img src="src/pictures/NicholasHubacek.png" alt="Nicholas"></img> */}
-        <button>Resume</button><div>
+        <a href="https://docs.google.com/document/d/1XWwixWkrz3NSW3eM3BB0Gr3tBJ7y6CceQ22B1EQJaqo/edit?usp=sharing">
+            <button>Resume</button></a>
         
-        </div></>
+
+        <div className="Projects">
+            
+            <Tooling />
+            </div>
+            <div className="">
+                </div></>
     )
 
 }
