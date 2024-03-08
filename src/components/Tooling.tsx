@@ -1,4 +1,4 @@
-import { faJava } from "@fortawesome/free-brands-svg-icons";
+import { faJava, faJs, faBootstrap, faNpm, faNode, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Tooling: React.FC = () => {
     return (
@@ -14,25 +14,31 @@ const Tooling: React.FC = () => {
             </p>
 
             <p>
-                JavaScript <FontAwesomeIcon icon={faJava} />
+                JavaScript <FontAwesomeIcon icon={faJs} />
             </p>
             <p>
-                Bootstrap <FontAwesomeIcon icon={faJava} />
+                Bootstrap <FontAwesomeIcon icon={faBootstrap} />
             </p>
             <p>
-                npm <FontAwesomeIcon icon={faJava} />
+                npm <FontAwesomeIcon icon={faNpm} />
 
             </p>
             <p>
                 Nest.js <FontAwesomeIcon icon={faJava} />
             </p>
             <p>
-                Node.js <FontAwesomeIcon icon={faJava} />
+                Node.js <FontAwesomeIcon icon={faNode} />
 
             </p>
-            <p>React</p>
-            <p>Typescript</p>
-            <p>Vite</p>
+            <p>
+                React <FontAwesomeIcon icon={faReact} />
+            </p>
+            <p>
+                Typescript <FontAwesomeIcon icon={faJava} />
+            </p>
+            <p>
+                Vite <FontAwesomeIcon icon={faJava} />
+            </p>
         </div>
     );
 }
