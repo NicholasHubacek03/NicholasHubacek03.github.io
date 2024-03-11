@@ -5,6 +5,7 @@ import AboutMe from "./containers/aboutme";
 import Projects from "./containers/projects";
 import Contact from "./containers/contact";
 import Home from "./containers/Home";
+import BottomTabBar from "./components/BottomTabBar";
 
 class App extends React.Component {
   render() {
@@ -18,6 +19,10 @@ class App extends React.Component {
           <Route path="/projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+
+         {/* Include the BottomTabBar component */}
+         <BottomTabBar />
+         
       </div>
     </Router>
     );

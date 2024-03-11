@@ -3,42 +3,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Tooling: React.FC = () => {
     return (
         <div className="Tooling">
-            <p>
-                Java <FontAwesomeIcon icon={faJava} />
-            </p>
-            <p>
-                Spring Boot <FontAwesomeIcon icon={faJava} />
-            </p>
-            <p>
-                jQurey <FontAwesomeIcon icon={faJava} />
-            </p>
-
-            <p>
-                JavaScript <FontAwesomeIcon icon={faJs} />
-            </p>
-            <p>
-                Bootstrap <FontAwesomeIcon icon={faBootstrap} />
-            </p>
-            <p>
-                npm <FontAwesomeIcon icon={faNpm} />
-
-            </p>
-            <p>
-                Nest.js <FontAwesomeIcon icon={faJava} />
-            </p>
-            <p>
-                Node.js <FontAwesomeIcon icon={faNode} />
-
-            </p>
-            <p>
-                React <FontAwesomeIcon icon={faReact} />
-            </p>
-            <p>
-                Typescript <FontAwesomeIcon icon={faJava} />
-            </p>
-            <p>
-                Vite <FontAwesomeIcon icon={faJava} />
-            </p>
+        <><div className="Tooling"></div><p>
+            <FontAwesomeIcon icon={faJava} /> Java
+        </p><p>
+                <FontAwesomeIcon icon={faJava} /> Spring Boot
+            </p><p>
+                <FontAwesomeIcon icon={faJava} /> jQurey
+            </p><p>
+                <FontAwesomeIcon icon={faJs} /> JavaScript
+            </p><p>
+                <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
+            </p><p>
+                <FontAwesomeIcon icon={faNpm} /> npm
+            </p><p>
+                <FontAwesomeIcon icon={faJava} /> Nest.js
+            </p><p>
+                <FontAwesomeIcon icon={faNode} /> Node.js
+            </p><p>
+                <FontAwesomeIcon icon={faReact} /> React
+            </p><p>
+                <FontAwesomeIcon icon={faJava} /> Typescript
+            </p><p>
+                <FontAwesomeIcon icon={faJava} /> Vite
+            </p></>
         </div>
     );
 }
