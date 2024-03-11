@@ -1,6 +1,12 @@
+import React from 'react';
+
 const Projects: React.FC = () => {
-    return (<h1>This is my Projects!</h1>)
+    return (
+        <div>
+            <h1>This is my Projects!</h1>
+            {/* Add your project components or content here */}
+        </div>
+    );
+};
 
-}
-
-    export default Projects;
+export default Projects;
