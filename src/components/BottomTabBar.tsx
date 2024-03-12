@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/BottomTabBar.css';
 
 const BottomTabBar: React.FC = () => {
     return (
