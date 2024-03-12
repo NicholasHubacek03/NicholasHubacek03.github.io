@@ -1,18 +1,24 @@
+import React from 'react';
+
 const Contact: React.FC = () => {
     return (
-        <><><><><><h1>Thanks for looking at my Portfolio</h1><br /></>
-            // stuff explaining my thoughts
-            <h2>Let Talk!</h2>
-        </><br /></>
-            <p>Name</p>
-            <br />
-            <input type="text" /></><p>Your Email Address</p>
-            <input type="text" />
-            <p>Message</p>
-            <input type="text" />
-            <br/>
-            <button>submit</button></>
-  )
+        <>
+            <h1>Thanks for looking at my Portfolio</h1>
+            <p>Let's Talk!</p>
+            <form>
+                <label htmlFor="name">Name</label>
+                <input type="text" id="name" />
+
+                <label htmlFor="email">Your Email Address</label>
+                <input type="text" id="email" />
+
+                <label htmlFor="message">Message</label>
+                <input type="text" id="message" />
+
+                <button type="submit">Submit</button>
+            </form>
+        </>
+    );
 }
 
-    export default Contact;
+export default Contact;

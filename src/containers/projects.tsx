@@ -10,25 +10,25 @@ const Projects: React.FC = () => {
         { 
             title: 'Weather Monitor', 
             description: "An application to track the 5-day forecast for any city in the world, providing comprehensive weather information.",
-            button: <a href='https://github.com/BrewQuest/BrewQuest'>Repo</a>
+            button: <a href='https://github.com/NicholasHubacek03/codeup-web-exercises/blob/main/weather_map.html'>Repo</a>
         },
         { 
             title: 'TrakFlix', 
-            description: 'Description for Project 3',
-            button: <a href='https://github.com/BrewQuest/BrewQuest'>Repo</a>
+            description: 'Trakflix is a movie application that operates on a single page, providing interactive features and complete CRUD functionality (Create, Read, Update, and Delete) to manage data within a locally stored JSON database using FETCH requests.',
+            button: <a href='https://github.com/francis-hubacek-movies-app/TrakFlix'>Repo</a>
         },
         { 
             title: 'The Daily Drip', 
-            description: 'Description for Project 3',
-            button: <a href='https://github.com/BrewQuest/BrewQuest'>Repo</a>
+            description: '',
+            button: <a href='https://github.com/Hubacek-and-Usher-coffee-project/coffee-project'>Repo</a>
         },
         { 
             title: 'CommuniList', 
-            description: 'Description for Project 3',
+            description: '',
             button: <a href='https://github.com/autrey-hubacek-gutierrez-adlister/a-n-m-adlister'>Repo</a>
         }
     ];
-
+// Need video of projects
     return (
         <div>
             <h1>This is my Projects!</h1>
