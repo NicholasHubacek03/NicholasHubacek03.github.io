@@ -1,33 +1,45 @@
 import { faJava, faJs, faBootstrap, faNpm, faNode, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../css/Tooling.css";
+
 const Tooling: React.FC = () => {
     return (
         <div className="Tooling">
-        <><div className="Tooling"></div><p>
-            <FontAwesomeIcon icon={faJava} /> Java
-        </p><p>
+            <div className="tool">
+                <FontAwesomeIcon icon={faJava} /> Java
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJava} /> Spring Boot
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJava} /> jQurey
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJs} /> JavaScript
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faBootstrap} /> Bootstrap
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faNpm} /> npm
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJava} /> Nest.js
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faNode} /> Node.js
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faReact} /> React
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJava} /> Typescript
-            </p><p>
+            </div>
+            <div className="tool">
                 <FontAwesomeIcon icon={faJava} /> Vite
-            </p></>
+            </div>
         </div>
     );
 }
 
-export default Tooling
+export default Tooling;
