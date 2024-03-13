@@ -26,12 +26,13 @@ const Projects: React.FC = () => {
             title: 'CommuniList', 
             description: '',
             button: <a href='https://github.com/autrey-hubacek-gutierrez-adlister/a-n-m-adlister'>Repo</a>
+            
         }
     ];
 // Need video of projects
     return (
         <div>
-            <h1>This is my Projects!</h1>
+            <h1>Projects</h1>
             {projects.map((project, index) => (
                 <div key={index}>
                     <h2>{project.title}</h2>
