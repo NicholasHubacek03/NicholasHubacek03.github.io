@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../css/Projects.css';
 const Projects: React.FC = () => {
     const projects = [
         { 
@@ -34,12 +34,11 @@ const Projects: React.FC = () => {
             
         }
     ];
-// Need video of projects
     return (
         <div>
             <h1>Projects</h1>
             {projects.map((project, index) => (
-                <div key={index}>
+                <div key={index} className='project-card'>
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
                     {project.image}
