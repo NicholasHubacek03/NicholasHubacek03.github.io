@@ -1,25 +1,27 @@
 import Tooling from "../components/Tooling";
+import "../css/Home.css";
 
 const Home: React.FC = () => {
     return (
-        <><h1>Hi There! I'm Nicholas</h1>
-        <h1>Software Developer</h1>
-        <p>Hi and Welcome to my portfolio! I'm an passionate full stack developer with dedication of creating clean code and experience problem solving skills.
-            I have experience in web development and I am always looking to learn and grow as a developer. Feel free to explore my projects and get in touch with me. 
-        </p>
-        {/* <img src="src/pictures/NicholasHubacek.png" alt="Nicholas"></img> */}
-        <a href="https://docs.google.com/document/d/1XWwixWkrz3NSW3eM3BB0Gr3tBJ7y6CceQ22B1EQJaqo/edit?usp=sharing">
-            <button>Resume</button></a>
-        
-
-        <div className="Projects">
-            
-            <Tooling />
+        <div className="home-container">
+            <div className="home-header">
+                <h1>Hi There! I'm Nicholas</h1>
+                <h1>Software Developer</h1>
             </div>
-            <div className="">
-                </div></>
-    )
-
+            <p className="home-intro">
+                Hi and Welcome to my portfolio! I'm a passionate full stack developer dedicated to creating clean code and solving problems. With experience in web development, I'm always eager to learn and grow as a developer. Feel free to explore my projects and get in touch with me.
+            </p>
+            <div className="home-actions">
+                <img src="src/pictures/NicholasHubacek.png" alt="Nicholas" className="home-image" />
+                <a href="https://docs.google.com/document/d/1XWwixWkrz3NSW3eM3BB0Gr3tBJ7y6CceQ22B1EQJaqo/edit?usp=sharing">
+                    <button className="home-button">Resume</button>
+                </a>
+            </div>
+            <div className="home-projects">
+                <Tooling />
+            </div>
+        </div>
+    );
 }
 
-    export default Home;
+export default Home;

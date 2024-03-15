@@ -1,0 +1,40 @@
+.home-container {
+    padding: 20px;
+}
+
+.home-header {
+    margin-bottom: 20px;
+}
+
+.home-intro {
+    margin-bottom: 20px;
+}
+
+.home-actions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-image {
+    width: 200px; /* Adjust the image width as needed */
+    margin-right: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Adjust button color as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+.home-projects {
+    /* Add styling for projects section if needed */
+}
