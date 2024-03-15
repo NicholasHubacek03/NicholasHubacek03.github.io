@@ -3,6 +3,9 @@ import "../css/Navbar.css"
 const Navbar: React.FC = () => {
       return (
             <nav className="navbar">
+              <div className="logo">
+                <img src="src/pictures/Nicholas_Hubacek__2 black.png" alt="Logo" />
+            </div>
               <NavLink to="/Home" className="nav-link">
                 Home
                 </NavLink>

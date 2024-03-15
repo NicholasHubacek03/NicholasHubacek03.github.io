@@ -17,7 +17,8 @@ const Home: React.FC = () => {
                     <button className="home-button">Resume</button>
                 </a>
             </div>
-            <div className="home-projects">
+            <div className="Tooling">
+                <h2>Tooling</h2>
                 <Tooling />
             </div>
         </div>

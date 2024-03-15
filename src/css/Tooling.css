@@ -1,9 +1,14 @@
 .Tooling {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Gap between items */
 }
 
 .tool {
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tool svg {
+    margin-right: 10px; /* Spacing between icon and text */
 }

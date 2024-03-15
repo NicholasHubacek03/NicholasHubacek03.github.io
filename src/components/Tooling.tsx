@@ -1,4 +1,4 @@
-import { faJava, faJs, faBootstrap, faNpm, faNode, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faJava, faJs, faBootstrap, faNpm, faNode, faReact, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../css/Tooling.css";
 
@@ -37,6 +37,9 @@ const Tooling: React.FC = () => {
             </div>
             <div className="tool">
                 <FontAwesomeIcon icon={faJava} size="2x" /> Vite
+            </div>
+            <div className="tool">
+                <FontAwesomeIcon icon={faGithub} size="2x" /> Git
             </div>
         </div>
     );
