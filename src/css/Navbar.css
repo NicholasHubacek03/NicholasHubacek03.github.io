@@ -12,14 +12,15 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    
   }
 
   logo {
-    margin-right: auto; /* Pushes the logo to the left */
+    margin-right: auto;
 }
 
 .logo img {
-    width: 40px; /* Adjust the size of the logo */
+    width: 40px;
     height: auto;
 }
   

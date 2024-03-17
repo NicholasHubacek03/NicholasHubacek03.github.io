@@ -1,17 +1,19 @@
-/* BottomTabBar container */
 .bottom-tab-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #222;
+    min-height: 60px; /* Change height to min-height */
     height: 60px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    padding: 10px; /* Add padding for better spacing */
+
 }
 
-/* BottomTabBar item */
+
 .bottom-tab-bar-item {
     display: flex;
     flex-direction: column;
@@ -22,17 +24,16 @@
     text-decoration: none;
 }
 
-/* BottomTabBar item - active */
 .bottom-tab-bar-item.active {
     color: #000000;
 }
 
-/* BottomTabBar item icon */
+
 .bottom-tab-bar-item-icon {
     margin-bottom: 4px;
 }
 
-/* BottomTabBar item label */
+
 .bottom-tab-bar-item-label {
     font-weight: bold;
 }

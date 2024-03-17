@@ -3,7 +3,7 @@ import "../css/Home.css";
 
 const Home: React.FC = () => {
     return (
-        <div className="home-container">
+        <><br /><div className="home-container">
             <div className="home-header">
                 <h1>Hi There! I'm Nicholas</h1>
                 <h1>Software Developer</h1>
@@ -18,10 +18,9 @@ const Home: React.FC = () => {
                 </a>
             </div>
             <div className="Tooling">
-                <h2>Tooling</h2>
                 <Tooling />
             </div>
-        </div>
+        </div></>
     );
 }
 

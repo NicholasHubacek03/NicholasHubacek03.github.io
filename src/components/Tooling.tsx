@@ -4,7 +4,7 @@ import "../css/Tooling.css";
 
 const Tooling: React.FC = () => {
     return (
-        <div className="Tooling">
+        <><h2>Tooling</h2><div className="Tooling">
             <div className="tool">
                 <FontAwesomeIcon icon={faJava} size="2x" /> Java
             </div>
@@ -41,7 +41,7 @@ const Tooling: React.FC = () => {
             <div className="tool">
                 <FontAwesomeIcon icon={faGithub} size="2x" /> Git
             </div>
-        </div>
+        </div></>
     );
 }
 

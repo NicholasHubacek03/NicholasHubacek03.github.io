@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
         },
         { 
             title: 'CommuniList', 
-            description: '',
+            description: 'An application offers users a seamless experience, allowing them to register an account, log out, and efficiently modify their account details. Additionally, enabling users to effortlessly add, edit, or delete ads to their page.',
             button: <a href='https://github.com/autrey-hubacek-gutierrez-adlister/a-n-m-adlister'>Repo</a>,
             image: <img src="src/pictures/CommuniList.jpg" alt="CommuniList"></img>
             

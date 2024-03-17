@@ -1,14 +1,24 @@
+
 .Tooling {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 20px; /* Gap between items */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width dynamically */
+    grid-gap: 20px;
 }
 
 .tool {
     display: flex;
     align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.tool:hover {
+    background-color: #801919;
 }
 
 .tool svg {
-    margin-right: 10px; /* Spacing between icon and text */
+    margin-right: 10px;
+    color: #007bff; /* Adjust icon color */
 }

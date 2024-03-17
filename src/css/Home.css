@@ -1,37 +1,44 @@
 .home-container {
     padding: 20px;
+    max-width: 1200px; /* Limit max width for better readability */
+    margin: 0 auto; /* Center the content horizontally */
 }
 
 .home-header {
     margin-bottom: 20px;
+    text-align: center; /* Center align header text */
 }
 
 .home-intro {
     margin-bottom: 20px;
+    text-align: center; /* Center align intro text */
 }
 
 .home-actions {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Align actions vertically */
+    align-items: center; /* Center align actions */
     margin-bottom: 20px;
 }
 
 .home-image {
-    width: 200px; /* Adjust the image width as needed */
-    margin-right: 20px;
+    width: 200px;
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make image circular */
+    margin-bottom: 20px;
 }
 
 .home-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff; /* Adjust button color as needed */
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .home-button:hover {
-    background-color: #0056b3; /* Adjust hover color as needed */
+    background-color: #0056b3;
 }
-
