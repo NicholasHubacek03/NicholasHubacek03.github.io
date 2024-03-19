@@ -1,31 +1,35 @@
 import React from 'react';
+import '../css/Contact.css';
 
 const Contact: React.FC = () => {
     return (
-        <>
-            <h2>Thanks for coming by!</h2>
-            <p>Let's Talk!</p>
-            <form>
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" />
+        <div className="contact-container">
+            <h2 className="contact-heading">Thanks for coming by!</h2>
+            <p className="contact-intro">Let's Talk!</p>
+            <form className="contact-form">
+                <div className="form-group">
+                    <label htmlFor="name">Name</label>
+                    <input type="text" id="name" className="form-control" />
+                </div>
 
-                <label htmlFor="email">Your Email Address</label>
-                <input type="email" id="email" />
+                <div className="form-group">
+                    <label htmlFor="email">Your Email Address</label>
+                    <input type="email" id="email" className="form-control" />
+                </div>
 
-                <label htmlFor="phone">Phone Number</label>
-                <input type="tel" id="phone" />
+                <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea id="message" rows={4} className="form-control"></textarea>
+                </div>
 
-                <label htmlFor="message">Message</label>
-                <textarea id="message" rows={4}></textarea>
-
-                <button type="submit">Submit</button>
+                <button type="submit" className="submit-button">Submit</button>
             </form>
-            <p>Connect with me on social media:</p>
-            <ul>
-                <li><a href="https://linkedin.com">LinkedIn</a></li>
-                <li><a href="https://twitter.com">GitHub</a></li>
+            <p className="social-media-heading">Connect with me on social media:</p>
+            <ul className="social-media-list">
+                <li><a href="https://linkedin.com" className="social-media-link">LinkedIn</a></li>
+                <li><a href="https://github.com" className="social-media-link">GitHub</a></li>
             </ul>
-        </>
+        </div>
     );
 }
 

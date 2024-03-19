@@ -35,9 +35,9 @@ const Projects: React.FC = () => {
         },
         { 
             title: 'SwiftList', 
-            description: 'An application offers users a seamless experience, allowing them to register an account, log out, and efficiently modify their account details. Additionally, enabling users to effortlessly add, edit, or delete ads to their page.',
+            description: '',
             button: <a href='https://github.com/NicholasHubacek03/SwiftList_web'>Repo</a>,
-            image: <img src="src/pictures/CommuniList.jpg" alt="CommuniList"></img>
+            image: <img src="" alt="Coming Soon"></img>
             
         }
     ];

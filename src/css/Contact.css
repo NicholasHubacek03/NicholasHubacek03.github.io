@@ -1,0 +1,66 @@
+.contact-container {
+    padding: 20px;
+}
+
+.contact-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.social-media-heading {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.social-media-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-list li {
+    margin-bottom: 10px;
+}
+
+.social-media-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-media-link:hover {
+    text-decoration: underline;
+}
