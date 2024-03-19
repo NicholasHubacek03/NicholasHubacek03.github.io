@@ -32,10 +32,18 @@ const Projects: React.FC = () => {
             button: <a href='https://github.com/autrey-hubacek-gutierrez-adlister/a-n-m-adlister'>Repo</a>,
             image: <img src="src/pictures/CommuniList.jpg" alt="CommuniList"></img>
             
+        },
+        { 
+            title: 'SwiftList', 
+            description: 'An application offers users a seamless experience, allowing them to register an account, log out, and efficiently modify their account details. Additionally, enabling users to effortlessly add, edit, or delete ads to their page.',
+            button: <a href='https://github.com/NicholasHubacek03/SwiftList_web'>Repo</a>,
+            image: <img src="src/pictures/CommuniList.jpg" alt="CommuniList"></img>
+            
         }
     ];
     return (
-        <div>
+        <><div>
+            <br />
             <h1>Projects</h1>
             {projects.map((project, index) => (
                 <div key={index} className='project-card'>
@@ -45,7 +53,8 @@ const Projects: React.FC = () => {
                     {project.button}
                 </div>
             ))}
-        </div>
+        </div><br />
+        <br /></>
     );
 };
 
