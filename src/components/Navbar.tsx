@@ -6,11 +6,8 @@ const Navbar: React.FC = () => {
               <div className="logo">
                 <img src="src/pictures/Nicholas_Hubacek__2 black.png" alt="Logo" />
             </div>
-              <NavLink to="/Home" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 Home
-                </NavLink>
-              <NavLink to="/aboutme" className="nav-link">
-                About Me
                 </NavLink>
               <NavLink to="/projects" className="nav-link">
                 Projects

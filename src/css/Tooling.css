@@ -1,13 +1,14 @@
-
 .Tooling {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width dynamically */
+    grid-template-columns: repeat(6, 1fr); /* 6 columns with equal width */
+    grid-template-rows: auto auto; /* 2 rows with content-based height */
     grid-gap: 20px;
 }
 
 .tool {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center content horizontally */
     padding: 10px;
     border-radius: 5px;
     background-color: #122cc2;

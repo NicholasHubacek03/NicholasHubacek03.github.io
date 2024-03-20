@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AboutMe from "./containers/aboutme";
 import Projects from "./containers/projects";
 import Contact from "./containers/contact";
 import Home from "./containers/Home";
@@ -14,8 +13,7 @@ class App extends React.Component {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
