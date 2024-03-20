@@ -1,3 +1,4 @@
+import Projects from "../components/Projects";
 import Tooling from "../components/Tooling";
 import "../css/Home.css";
 
@@ -20,6 +21,8 @@ const Home: React.FC = () => {
             <div className="Tooling">
                 <Tooling />
             </div>
+            {/* Render the Projects component */}
+            <Projects />
         </div></>
     );
 }
