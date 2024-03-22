@@ -12,7 +12,7 @@ const Tooling: React.FC = () => {
                 <FontAwesomeIcon icon={faJava} size="2x" /> Spring Boot
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> jQurey
+                <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> jQurey
             </div>
             <div className="tool">
                 <FontAwesomeIcon icon={faJs} size="2x" /> JavaScript
@@ -24,7 +24,7 @@ const Tooling: React.FC = () => {
                 <FontAwesomeIcon icon={faNpm} size="2x" /> npm
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> Nest.js
+                <img src="src/pictures/NestJS.svg.png" alt="" /> Nest.js
             </div>
             <div className="tool">
                 <FontAwesomeIcon icon={faNode} size="2x" /> Node.js
@@ -33,10 +33,10 @@ const Tooling: React.FC = () => {
                 <FontAwesomeIcon icon={faReact} size="2x" /> React
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> Typescript
+                <img src="src/pictures/Typescript_logo_2020.svg.png" /> Typescript
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> Vite
+                <img src="" /> Vite
             </div>
             <div className="tool">
                 <FontAwesomeIcon icon={faGithub} size="2x" /> Git
