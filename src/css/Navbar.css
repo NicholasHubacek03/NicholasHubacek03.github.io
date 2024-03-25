@@ -8,7 +8,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #222;
+    background-color: #116466;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -26,15 +26,15 @@ body {
   
   .nav-link {
     text-decoration: none;
-    color: white;
+    color: #d1e8e2;
     padding: 10px;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #116466;
   }
   
   .nav-link:hover,
   .nav-link:active {
-    background-color: rgb(255, 255, 255);
+    background-color: #d9b08c;
     transition: background-color 0.3s ease
     
   }

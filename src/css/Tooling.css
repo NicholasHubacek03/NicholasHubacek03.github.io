@@ -11,12 +11,13 @@
     justify-content: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: #122cc2;
+    background-color: #116466;
     transition: background-color 0.3s ease;
+    color: #d1e8e2;
 }
 
 .tool:hover {
-    background-color: #29b6af;
+    background-color: #d9b08c;
 }
 
 .tool svg {
@@ -25,7 +26,9 @@
 }
 .tool img {
     margin-right: 10px;
-    color: #007bff;
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 30px;
+    height: 30px;
+}
+h2 {
+    color: #d9b08c;
 }

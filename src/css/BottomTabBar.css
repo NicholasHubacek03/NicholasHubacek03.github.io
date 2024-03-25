@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #222;
-    min-height: 60px;
-    height: 60px;
+    background-color: #116466;
+    height: 40px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -36,4 +35,12 @@
 
 .bottom-tab-bar-item-label {
     font-weight: bold;
+}
+
+.icon {
+    color: #d1e8e2;
+}
+
+.icon:hover {
+    color: #d9b08c;
 }
