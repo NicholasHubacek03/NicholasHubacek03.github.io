@@ -6,40 +6,40 @@ const Tooling: React.FC = () => {
     return (
         <><h2>Tooling</h2><div className="Tooling">
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> Java
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Java
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJava} size="2x" /> Spring Boot
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Spring Boot
             </div>
             <div className="tool">
                 <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> jQurey
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faJs} size="2x" /> JavaScript
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> JavaScript
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faBootstrap} size="2x" /> Bootstrap
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Bootstrap
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faNpm} size="2x" /> npm
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> npm
             </div>
             <div className="tool">
-                <img src="src/pictures/NestJS.svg.png" alt="" /> Nest.js
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Nest.js
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faNode} size="2x" /> Node.js
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Node.js
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faReact} size="2x" /> React
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> React
             </div>
             <div className="tool">
-                <img src="src/pictures/Typescript_logo_2020.svg.png" /> Typescript
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Typescript
             </div>
             <div className="tool">
-                <img src="" /> Vite
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Vite
             </div>
             <div className="tool">
-                <FontAwesomeIcon icon={faGithub} size="2x" /> Git
+            <img src="src/pictures/icons8-jquery-50.png" alt="jQuery" /> Git
             </div>
         </div></>
     );
