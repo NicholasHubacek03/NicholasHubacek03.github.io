@@ -33,3 +33,25 @@ h2 {
     color: #d9b08c;
     text-align: center;
 }
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .Tooling {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Tooling {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tool {
+        padding: 8px;
+    }
+    .tool img {
+        width: 25px;
+        height: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
