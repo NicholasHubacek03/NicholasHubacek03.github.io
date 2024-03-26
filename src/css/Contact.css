@@ -78,3 +78,38 @@
 .form-group label {
     color: #d1e8e2;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-container {
+        padding: 10px;
+    }
+    .contact-heading {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .contact-intro {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .form-control {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .submit-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .social-media-heading {
+        font-size: 18px;
+    }
+    .social-media-link {
+        font-size: 14px;
+    }
+}
