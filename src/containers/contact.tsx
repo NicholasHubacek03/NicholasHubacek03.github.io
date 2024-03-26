@@ -3,7 +3,7 @@ import '../css/Contact.css';
 
 const Contact: React.FC = () => {
     return (
-        <div className="contact-container">
+        <><br /><br /><div className="contact-container">
             <h2 className="contact-heading">Thanks for coming by!</h2>
             <p className="contact-intro">Let's Talk!</p>
             <form className="contact-form">
@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
                 <li><a href="https://linkedin.com" className="social-media-link">LinkedIn</a></li>
                 <li><a href="https://github.com" className="social-media-link">GitHub</a></li>
             </ul>
-        </div>
+        </div></>
     );
 }
 

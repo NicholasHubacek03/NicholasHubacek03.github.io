@@ -1,67 +1,80 @@
 .contact-container {
     padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #D9b08c;
 }
 
 .contact-intro {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #ffcb9a;
 }
 
 .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
+    text-align: left;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .form-control {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 .submit-button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
+    background-color: #116466;
+    color: #d1e8e2;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .submit-button:hover {
-    background-color: #0056b3;
+    background-color: #D9b08c;
 }
 
 .social-media-heading {
-    margin-top: 30px;
-    font-size: 18px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #e0caca;
 }
 
 .social-media-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .social-media-list li {
-    margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 .social-media-link {
     text-decoration: none;
-    color: #007bff;
+    color: #116466;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
 .social-media-link:hover {
-    text-decoration: underline;
+    color: #D9b08c;
+}
+.form-group label {
+    color: #d1e8e2;
 }

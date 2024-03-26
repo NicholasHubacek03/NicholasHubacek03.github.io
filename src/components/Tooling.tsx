@@ -2,7 +2,7 @@ import "../css/Tooling.css";
 
 const Tooling: React.FC = () => {
     return (
-        <><h2>Tooling</h2><div className="Tooling">
+        <><h2>Tools</h2><div className="Tooling">
             <div className="tool">
             <img src="src/pictures/icons/java-icon.svg" alt="Java" /> Java
             </div>
