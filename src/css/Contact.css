@@ -79,6 +79,10 @@
     color: #d1e8e2;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .contact-container {
