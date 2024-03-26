@@ -1,6 +1,6 @@
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Decrease the minimum width */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -10,43 +10,45 @@
 .project-card {
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 10px; /* Decrease padding */
-  margin-bottom: 20px;
+  overflow: hidden; /* Ensure the image stays within the card */
 }
 
 .project-card h2 {
   color: #ffcb9a;
-  font-size: 20px; /* Decrease font size */
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin: 15px 0; /* Adjust margin */
+  text-align: center; /* Center the text */
 }
 
 .project-card p {
   color: #d1e8e2;
-  font-size: 16px; /* Decrease font size */
-  margin-bottom: 10px; /* Adjust margin */
+  font-size: 16px;
+  margin: 0 15px 15px; /* Adjust margin */
 }
 
 .project-card img {
-  max-width: 100%;
+  width: 50%; /* Ensure the image fills the card */
   height: auto;
-  margin-bottom: 10px; /* Adjust margin */
+  object-fit: cover; /* Maintain aspect ratio and fill the space */
 }
 
 .project-card a {
-  display: inline-block;
-  padding: 8px 16px; /* Decrease padding */
-  background-color: #007bff;
+  display: block; /* Make the link full-width */
+  padding: 10px 0; /* Adjust padding */
+  background-color: #116466;
   color: #fff;
+  text-align: center; /* Center the text */
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 14px; /* Decrease font size */
+  border-radius: 0 0 8px 8px; /* Adjust border radius */
+  font-size: 14px;
 }
 
 .project-card a:hover {
-  background-color: #0056b3;
+  background-color: #d9b08c;
+  transition: background-color 0.3s ease;
 }
 
 h1 {
   color: #d9b08c;
-  text-align: center; /* Center the heading */
+  text-align: center;
 }
