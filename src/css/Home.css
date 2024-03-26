@@ -12,6 +12,7 @@
 .home-intro {
     margin-bottom: 20px;
     text-align: center;
+    color: #d1e8e2;
 }
 
 .home-actions {
@@ -50,10 +51,54 @@
   color: #ffcb9a;
 }
 
-.home-intro
-{
-  color: #d1e8e2;
-}
 body{
     background-color: #2c3531;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .home-container {
+        padding: 10px;
+    }
+    .home-header {
+        font-size: 24px;
+    }
+    .home-intro {
+        font-size: 16px;
+    }
+    .home-actions {
+        margin-bottom: 10px;
+    }
+    .home-image {
+        width: 150px;
+        height: 150px;
+    }
+    .home-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home-container {
+        padding: 5px;
+    }
+    .home-header {
+        font-size: 20px;
+    }
+    .home-intro {
+        font-size: 14px;
+    }
+    .home-actions {
+        margin-bottom: 5px;
+    }
+    .home-image {
+        width: 100px;
+        height: 100px;
+    }
+    .home-button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
 }
