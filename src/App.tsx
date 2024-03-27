@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Projects from "./containers/projects";
 import Contact from "./containers/contact";
 import Home from "./containers/Home";
-import BottomTabBar from "./components/BottomTabBar";
 
 class App extends React.Component {
   render() {
@@ -19,7 +18,6 @@ class App extends React.Component {
         </Routes>
 
          {}
-         <BottomTabBar />
          
       </div>
     </Router>

@@ -1,3 +1,4 @@
+import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Tooling from "../components/Tooling";
 import "../css/Home.css";
@@ -28,8 +29,8 @@ const Home: React.FC = () => {
                 </div>
                 <Projects />
             </div>
+            <Contact />
         </>
-    );
-}
+    ); }
 
 export default Home;
