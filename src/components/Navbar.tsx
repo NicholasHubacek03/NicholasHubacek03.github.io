@@ -1,21 +1,17 @@
-import { NavLink } from "react-router-dom"
-import "../css/Navbar.css"
+import React from "react";
+import { Link } from "react-scroll";
+import "../css/Navbar.css";
+
 const Navbar: React.FC = () => {
-      return (
-            <nav className="navbar">
-              <div className="logo">
-                <img src="src/pictures/Nicholas_Hubacek__2 black.png" alt="Logo" />
-            </div>
-              <NavLink to="/" className="nav-link">
-                Home
-                </NavLink>
-              <NavLink to="/projects" className="nav-link">
-                Projects
-                </NavLink>
-              <NavLink to="/contact" className="nav-link">
-                Contact
-                </NavLink>
-            </nav>
-      ); 
-    }
-export default Navbar
+    return (
+        <nav id="nav">
+            <ul className="container">
+                <li><Link to="top" smooth={true} duration={500}>Introduction</Link></li>
+                <li><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
+                <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+            </ul>
+        </nav>
+    );
+}
+
+export default Navbar;
