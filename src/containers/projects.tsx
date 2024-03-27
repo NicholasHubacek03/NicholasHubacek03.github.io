@@ -44,6 +44,7 @@ const Projects: React.FC = () => {
     return (
         <><div>
             <br />
+            <br />
             <h1>Projects</h1>
             {projects.map((project, index) => (
                 <div key={index} className='project-card'>
@@ -54,6 +55,7 @@ const Projects: React.FC = () => {
                 </div>
             ))}
         </div><br />
+        <br />
         <br /></>
     );
 };
