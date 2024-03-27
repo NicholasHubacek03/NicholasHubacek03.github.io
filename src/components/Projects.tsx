@@ -47,6 +47,7 @@ const Projects: React.FC = () => {
         <div>
             <br />
             <h1>Projects</h1>
+            <p>This is my induticons</p>
             {projects.map((project, index) => (
                 <ProjectCard key={index} {...project} />
             ))}
