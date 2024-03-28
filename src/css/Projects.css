@@ -46,6 +46,7 @@
 .project-card a:hover {
   background-color: #d9b08c;
   transition: background-color 0.3s ease;
+  color: #2c3531;
 }
 
 h1 {

@@ -35,4 +35,5 @@ body {
 .container li a:hover {
   background-color: #ffcb9a;
   border-radius: 5px;
+  color: #2c3531;
 }
