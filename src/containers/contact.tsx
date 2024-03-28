@@ -5,8 +5,6 @@ const Contact: React.FC = () => {
     return (
         <>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" />
-            <br />
-            <br />
             <div className="contact-container">
                 <h2 className="contact-heading">Thanks for coming by!</h2>
                 <p className="contact-intro">Let's Talk!</p>

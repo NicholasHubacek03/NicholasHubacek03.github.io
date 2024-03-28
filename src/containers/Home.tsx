@@ -6,7 +6,7 @@ import React from "react";
 
 const Home: React.FC = () => {
     return (
-        <> <br />
+        <>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" />
             <div className="home-container">
                 <div className="home-header">
