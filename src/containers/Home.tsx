@@ -27,9 +27,14 @@ const Home: React.FC = () => {
                 <div>
                     <Tooling />
                 </div>
-                <Projects />
+                <section id="portfolio">
+                    <Projects />
+                </section>
+                <section id="contact">
+                    <Contact />
+                </section>
             </div>
-            <Contact />
+            
         </>
     ); }
 
