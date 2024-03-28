@@ -69,12 +69,16 @@
 .social-media-link {
     text-decoration: none;
     color: #116466;
-    font-size: 16px;
+    
     transition: color 0.3s ease;
 }
 
 .social-media-link:hover {
     color: #D9b08c;
+}
+.social-media-list li {
+    margin-right: 30px; 
+    margin-left: 30px;
 }
 .form-group label {
     color: #d1e8e2;

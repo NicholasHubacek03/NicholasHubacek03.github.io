@@ -32,8 +32,8 @@ const Contact: React.FC = () => {
                 </form>
                 <p className="social-media-heading">Connect with me on social media:</p>
                 <ul className="social-media-list">
-                <li><a href="https://github.com/NicholasHubacek03"><FontAwesomeIcon icon={faGithub} size='2x' className='icon'/></a></li>
-                    <li><a href="https://www.linkedin.com/in/nicholas-hubacek/"><FontAwesomeIcon icon={faLinkedinIn} size='2x' className="icon"/></a></li>
+                <li><a href="https://github.com/NicholasHubacek03"><FontAwesomeIcon icon={faGithub} size='3x' className='social-media-link'/></a></li>
+                    <li><a href="https://www.linkedin.com/in/nicholas-hubacek/"><FontAwesomeIcon icon={faLinkedinIn} size='3x' className="social-media-link"/></a></li>
                 </ul>
             </div>
         </>
