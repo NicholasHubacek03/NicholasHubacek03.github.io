@@ -1,3 +1,8 @@
+body{
+    background-color: #2c3531;
+    font-family: "Montserrat", sans-serif;
+}
+
 .home-container {
     padding: 20px;
     max-width: 1200px;
@@ -6,18 +11,18 @@
 
 .home-header {
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .home-intro {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 20px;
     color: #d1e8e2;
 }
 
 .home-actions {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -27,6 +32,8 @@
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
 }
 
 .home-button {
@@ -45,18 +52,14 @@
     color: #2c3531;
     
 }
-.First {
+
+.home-header h1{
   color: #d9b08c;
 }
-.Second {
+
+.home-header h2{
   color: #ffcb9a;
 }
-
-body{
-    background-color: #2c3531;
-    font-family: "Montserrat", sans-serif;
-}
-
 
 /* Media Queries */
 @media screen and (max-width: 768px) {

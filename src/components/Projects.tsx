@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
             title: 'SwiftList', 
             description: '',
             button: <a href='https://github.com/NicholasHubacek03/SwiftList_web'>Repo</a>,
-            image: <img src="" alt="Coming Soon"></img>
+            image: <img src="src/pictures/projects/coming soon.jpg" alt="Coming Soon"></img>
             
         }
     ];

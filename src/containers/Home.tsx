@@ -10,8 +10,8 @@ const Home: React.FC = () => {
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" />
             <div className="home-container">
                 <div className="home-header">
-                    <h1 className="First">Hi There! I'm Nicholas Hubacek</h1>
-                    <h1 className="Second">Software Developer</h1>
+                    <h1 className="home-header h1">Hi There! I'm Nicholas Hubacek</h1>
+                    <h1 className="home-header h2">Software Developer</h1>
                 </div>
                 <h3 className="home-intro">
                 Hi and Welcome to my portfolio! I’m a passionate full stack developer dedicated to creating clean code and solving problems. Whether it’s frontend or backend,
