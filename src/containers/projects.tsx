@@ -42,7 +42,8 @@ const Projects: React.FC = () => {
         }
     ];
     return (
-        <><div>
+        <section className='projects_containter'>
+            butthole
             <h1>Projects</h1>
             {projects.map((project, index) => (
                 <div key={index} className='project-card'>
@@ -52,7 +53,7 @@ const Projects: React.FC = () => {
                     {project.button}
                 </div>
             ))}
-        </div></>
+        </section>
     );
 };
 
