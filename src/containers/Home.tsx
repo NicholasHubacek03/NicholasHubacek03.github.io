@@ -1,5 +1,4 @@
 import Tooling from "../components/Tooling";
-import "../css/Home.css";
 import React from "react";
 
 const Home: React.FC = () => {
@@ -24,8 +23,7 @@ const Home: React.FC = () => {
                             </a>
                     </div>
                     
-                </div>0 
-
+                </div>
                 <div>
                     <Tooling />
                 </div>
