@@ -9,7 +9,7 @@ const Home: React.FC = () => {
             <div className="home-container">
                 <div className="headboi">
                     <div className="home-actions">
-                        <img src="/public/NicholasHubacek remaster.png" alt="Nicholas" className="home-image" />
+                        <img src="/me.png" alt="Nicholas" className="home-image" />
                     </div>
                     <div className="home-header">
                         <h1 className="home-header h1">Hi There! I'm Nicholas Hubacek</h1>
