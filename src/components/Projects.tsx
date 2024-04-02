@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import '../css/Projects.css';
+import DailyDripImg from '../../public/pictures/projects/The Daily Drip!.jpg'
 
 const Projects: React.FC = () => {
     const projects = [
@@ -26,7 +27,7 @@ const Projects: React.FC = () => {
             title: 'The Daily Drip',
             description: 'An application that allows an user to search through different coffee and let them add their owns too',
             button: <a href='https://github.com/Hubacek-and-Usher-coffee-project/coffee-project'>Repo</a>,
-            image: <img src="/pictures/The Daily Drip!.jpg" alt="The Daily Drip"></img>
+            image: <img src={DailyDripImg} alt="The Daily Drip"></img>
         },
         {
             title: 'CommuniList',
