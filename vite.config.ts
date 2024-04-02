@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
-  base: '/'
+  base: 'raw.githubusercontent.com/NicholasHubacek03/NicholasHubacek03.github.io/main/'
 });
