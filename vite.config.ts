@@ -6,6 +6,5 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'build',
-  },
-  base: 'raw.githubusercontent.com/NicholasHubacek03/NicholasHubacek03.github.io/main/'
+  }
 });
