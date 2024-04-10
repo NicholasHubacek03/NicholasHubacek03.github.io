@@ -1,16 +1,16 @@
 import "../css/Tooling.css";
-import JavaImg from '../../public/icons/java-icon.svg'
-import SringSvg from '../../public/icons/spring-3.svg'
-import JqureyImg from '../../public/icons/jquery-icon.svg'
-import JavaScriptImg from '../../public/icons/logo-javascript.svg'
-import BootStrapImg from '../../public/icons/bootstrap-5-1.svg'
-import NpmImg from '../../public/icons/npm.svg'
-import NestJsImg from '../../public/icons/nestjs-icon.svg'
-import NodeJsImg from '../../public/icons/nodejs-icon.svg'
-import ReactImg from '../../public/icons/react-2.svg'
-import TypeScriptImg from '../../public/icons/typescript.svg'
-import ViteImg from '../../public/icons/vitejs.svg'
-import GitImg from '../../public/icons/git-icon.svg'
+import JavaImg from '../../public/pictures/icons/java-icon.svg'
+import SringSvg from '../../public/pictures/icons/spring-3.svg'
+import JqureyImg from '../../public/pictures/icons/jquery-icon.svg'
+import JavaScriptImg from '../../public/pictures/icons/logo-javascript.svg'
+import BootStrapImg from '../../public/pictures/icons/bootstrap-5-1.svg'
+import NpmImg from '../../public/pictures/icons/npm.svg'
+import NestJsImg from '../../public/pictures/icons/nestjs-icon.svg'
+import NodeJsImg from '../../public/pictures/icons/nodejs-icon.svg'
+import ReactImg from '../../public/pictures/icons/react-2.svg'
+import TypeScriptImg from '../../public/pictures/icons/typescript.svg'
+import ViteImg from '../../public/pictures/icons/vitejs.svg'
+import GitImg from '../../public/pictures/icons/git-icon.svg'
 
 const Tooling: React.FC = () => {
     return (

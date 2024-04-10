@@ -1,5 +1,6 @@
 import Tooling from "../components/Tooling";
 import React from "react";
+import "../css/Home.css";
 
 const Home: React.FC = () => {
     return (
