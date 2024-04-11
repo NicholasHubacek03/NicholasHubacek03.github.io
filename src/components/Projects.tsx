@@ -42,8 +42,8 @@ const Projects: React.FC = () => {
 
         },
         {
-            title: 'SwiftList',
-            description: ' Your all-in-one calendar companion, offering seamless integration with Google API for daily, weekly, and monthly tracking, to-dos, and much more.',
+            title: 'Moore Finance',
+            description: 'An application for finance made easy, featuring Budgets by Paycheck, Calendar, Sinking Funds, and Debt Snowball Calculator.',
             button: <a href='https://github.com/NicholasHubacek03/SwiftList_web'>Repo</a>,
             image: <img src={ComingSoonImg} alt="Coming Soon"></img>
 
