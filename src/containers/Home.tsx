@@ -19,7 +19,7 @@ const Home: React.FC = () => {
                         I'm always up to the task! I’m always eager to learn and grow as a developer.
                         Feel free to explore my projects and this site that I poured my dedication into. And also feel free to get in touch with me.
                     </h3>
-                    <a href="https://docs.google.com/document/d/1XWwixWkrz3NSW3eM3BB0Gr3tBJ7y6CceQ22B1EQJaqo/edit?usp=sharing">
+                    <a href="https://docs.google.com/document/d/1QDqzCj9Fj3S-pc3St7MAuS4kEoKPFsoabZmOMv1rwM0/edit?usp=sharing">
                         <button className="home-button">Resume</button>
                             </a>
                     </div>
